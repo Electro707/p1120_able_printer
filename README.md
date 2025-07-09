@@ -13,14 +13,12 @@ For my setup I had +7v connected to Vmech (left-side most pin of the power conne
 The data connector is the one nearest connector to the power one.
 I had it connected, in order from the pin closes to the power connector, to a USB-RS232-WE cable as follows:
 
-|-------|-----------|
 | ABLE  | USB-RS232 |
 |-------|-----------|
 | RX    | TX        |
 | TX    | RX        |
 | Busy  | CTS       |
 | GND   | GND       |
-|-------|-----------|
 
 # Library
 Inside [src](`src`) is an abstract library to interface to the ABLE printer, agnostic of any underlying system. I designed it that way so it's easily usable in embedded system, such as with a microcontroller. I also wrote a Linux test app for testing the library
