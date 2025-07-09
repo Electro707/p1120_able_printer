@@ -1,0 +1,12 @@
+{
+    "C_Cpp.default.includePath": [
+        "/usr/include"
+    ],
+    "files.associations": {
+        "stdint.h": "c",
+        "string": "cpp",
+        "cstdint": "c",
+        "types": "c",
+        "ostream": "cpp"
+    }
+}
